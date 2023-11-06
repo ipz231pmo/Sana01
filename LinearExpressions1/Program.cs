@@ -12,8 +12,8 @@ double
     y = 10 * (a + b) * (c - d) / c + d * d * (a * a - b * b) / (b - a),
     z = (Math.Pow(x * x - 2 * x, 3) - 4 * (x * x * x * x + 1)) * (1 - b) / (5 * a + 3 * b),
     r = (1/2*a + 3/4*b - 7/5) / (3 * c + 1) + 1 / (a - c);
-Console.WriteLine(x);
-Console.WriteLine(y);
-Console.WriteLine(z);
-Console.WriteLine(r);
+Console.WriteLine("x is " + x);
+Console.WriteLine("y is " + y);
+Console.WriteLine("z is " + z);
+Console.WriteLine("r is " + r);
 
