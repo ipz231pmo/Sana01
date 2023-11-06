@@ -15,5 +15,5 @@ double
     z2 = (Math.Sqrt(m) - Math.Sqrt(n)) / m,
     y = 2.4 * Math.Abs((x * x + b) / a) + (a-b)*Math.Pow(Math.Sin(a-b), 2) + Math.Pow(10, -2)*(x-b);
 Console.WriteLine("z1 is " + z1.ToString());
-Console.WriteLine("z1 is " + z2.ToString());
-Console.WriteLine("z1 is " + y.ToString());
+Console.WriteLine("z2 is " + z2.ToString());
+Console.WriteLine("y is " + y.ToString());
